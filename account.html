@@ -6,35 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-
     scale=1.0">
 
-    <!---------------------- NAZIV STRANICE  ------------------------->
-
-    <title> KODIUS︳ACCOUNT </title>
+    <!------- PAGE NAME -------->
+    <title> KODIUS︳ABOUT US </title>
     <link rel="stylesheet" href="styles.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACCOUNT</title>
+    <title>ABOUT US</title>
     <!---------------------- FONT  ------------------------->
-
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <!-- custom javascript link  -->
-    <script src="assets/js/script.js" defer></script>
+    <script src="js/script.js" defer></script>
 
-
-    <!---------------------- BODY ------------------------->
-
-    <body>
+    <!-- --------------------- BODY ------------------------->
+    <div class="header">
 
         <div class="container">
 
             <div class="navbar">
                 <div class="logo">
 
-                    <img src="Images2/Logo.png" width="30px">
+                    <a href="index.html"><img src="assets/imgs/kodius-logo.png" width="250px">
 
                 </div>
                 <!---------------------- NAV BAR ------------------------->
@@ -42,13 +38,11 @@
                     <ul id="MenuItems">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="products.html">Products</a></li>
-                        <li><a href="about us.html">About Us </a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Account</a></li>
-
+                        <li><a href="about us.html">About Us</a></li>
+                        <li><a href="account.html">Account</a></li>
                     </ul>
                 </nav>
-                <img src="images2/cart.png" width="30px" height="30px">
+                <a href="cart.html"> <img src="assets/imgs/cart.png" width="30px" height="30px"></a>
                 <img src="images2/menu.png" class="menu-icon" onclick="menutoggle()">
             </div>
         </div>
@@ -207,6 +201,6 @@
 
             }
         </script>
-    </body>
+        </body>
 
 </html>
